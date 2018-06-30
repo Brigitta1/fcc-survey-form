@@ -1,0 +1,85 @@
+<head>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet"> 
+</head>
+
+<body>
+  <div id= "container">
+    <h1 id="title">The Big Literary Survey</h1>
+    <p id="description">We'd love to know more about your reading habits<br> so that we can improve our site and personalize our recommendations.</p>
+    
+    <div id="form-container" action="">
+      <form id="survey-form">
+        <div class="section" id="section1">
+       <p><label for="name" id="name-label">Your name:</label>
+         <input class="" type="text" id="name" name="name" placeholder="Name" required><br></p>
+          
+         <p><label for="email" id="email-label">Your email address:</label>
+            <input class="" type="email" id="email" name="email" placeholder="Email address" required><br></p>
+           
+            <p><label for="number" id="number-label">Your age:</label>
+              <input class="" type="number" id="number" name="age" placeholder="Age" min ="1" max="100" required><br></p>
+        
+        <label>Your current role:</label><select class="" id="dropdown" name="role">
+            <option value="Learner">Full time learner</option>
+            <option value="Parttime">Part time learner</option>
+            <option value="Job">Full time job</option>
+            <option value="Partjob">Part time job</option>
+            <option value="Reader">Full time reader</option>
+            <option value="Other">Other</option>
+            </select><br>
+        </div>
+        
+        <div class="section" id="section2">
+          <p>How often do you read?</p><br>
+          <label for="daily"><input value="daily" type="radio" name="regularity">Every day</label><br>
+          <label for="weekly"><input value="weekly" type="radio" name="regularity">Once or twice a week</label><br>
+          <label for="monthly"><input value="monthly" type="radio" name="regularity">Couple of times a month maybe</label><br>
+          <label for ="never"><input value="never" type="radio" name="regularity">Almost never</label><br>
+        </div>
+        <div class="section" id="section3">
+          <p>What type of media do you prefer when it comes to reading?<br>
+            You can select more than one option here.<br></p>
+          <label for="blog"><input value="blog" type="checkbox" name="media">Blogs</label><br>
+          <label for="online"><input value="online" type="checkbox" name="media">Online news and articles</label><br>
+          <label for="book"><input value="book" type="checkbox" name="media">Printed books</label><br>
+          <label for="newspaper"><input value="newspaper" type="checkbox" name="media">Newspapers</label><br>
+          <label for="magazine"><input value="magazine" type="checkbox" name="media">Magazines</label><br>
+          <label for="comic"><input value="comic" type="checkbox" name="media">Comic books</label><br>
+          <label for="secondhand"><input value="secondhand" type="checkbox" name="media">Secondhand paperbacks</label><br>
+          <label for="other"><input value="other" type="checkbox" name="media">Other types</label><br>
+        </div>
+        <div class="section" id="section4">
+          <p>What genre do you find yourself reading most of the time?<br>
+            Again, you can select more than one option from the list.<br></p>
+          <label for="classic"><input value="classic" type="checkbox" name="genre">Classic novels and short stories</label><br>
+          <label for="romance"><input value="romance" type="checkbox" name="genre">Romance</label><br>
+          <label for="poetry"><input value="poetry" type="checkbox" name="genre">Poetry</label><br>
+          <label for="drama"><input value="drama" type="checkbox" name="genre">Drama</label><br>
+          <label for="fantasy"><input value="fantasy" type="checkbox" name="genre">Fantasy</label><br>
+          <label for="young"><input value="young" type="checkbox" name="genre">Young adult and children's books</label><br>
+          <label for="thriller"><input value="thriller" type="checkbox" name="genre">Thrillers, horrors</label><br>
+          <label for="biography"><input value="biography" type="checkbox" name="genre">Biographies</label><br>
+          <label for="history"><input value="history" type="checkbox" name="genre">History</label><br>
+          <label for="technical"><input value="technical" type="checkbox" name="genre">Technical</label><br>
+          <label for="science"><input value="science" type="checkbox" name="genre">Science</label><br>
+          <label for="other"><input value="other" type="checkbox" name="genre">Other</label><br>
+        </div>
+        <div class="text">
+        <textarea name="comments" rows="6px" cols="70px" placeholder="Please share any comments you think we may find useful. Think about things like your favourite author or book of all times, the places where you enjoy reading the most or anything else really that pops into your mind. "></textarea><br></p>
+        </div>
+        <p class="thanks">Thank you for taking the time and helping us by submitting this form!</p>
+      <div class="button-container">
+          <button type="submit" id="submit">Submit the form</button>
+      </div>
+              
+      </form>
+    </div>
+    
+    <p id="footer">Because we love books.</p>
+  </div>
+ 
+</body>
+
+
+

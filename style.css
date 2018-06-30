@@ -1,0 +1,131 @@
+body, html {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Cormorant Garamond', serif;
+  background: url(https://user-images.githubusercontent.com/26505095/41935322-26d6c9d6-7981-11e8-9b1d-87ba0e70471e.jpg);
+}
+
+#container {
+  padding: 2.5em;
+ /* background-color: rgba(0,204,204,0.4);*/
+}
+
+#title {
+  color: ;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#description {
+  color: ;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 1.6em;
+}
+
+#form-container {
+  width: 600px;
+  margin: auto;
+  padding: 2em;
+  background-color:rgba(41,82,163,0.8);
+  color: #fff;
+  font-size: 1.125em;
+}
+
+.section {
+  padding-bottom: 2em;
+  padding-top: 2em;
+  border-bottom: 2px solid #ff3300;
+}
+
+
+#section1 label {
+  float: left;
+  width: 35%;
+  height: 30px;
+  line-height: 30px;
+}
+
+#section2 label, #section3 label, #section4 label {
+  margin-left: 3.5em;
+  line-height: 30px;
+}
+
+[type="email"], [type="text"], [type="number"], #dropdown {
+  width:60%;
+  box-sizing: border-box;
+  padding: 6px;
+  padding-left: 15px;
+  border-radius: 5px;
+  
+}
+
+.text {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+textarea {
+  border-radius: 5px;
+}
+
+.thanks {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 2em;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+}
+#submit {
+ width: 50%;
+  height: 3.5em;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #ff3300;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+#submit:hover {
+  background-color: #00cccc;
+  font-size: .85em;
+}
+#footer {
+  margin: 10px;
+  text-align: center;
+  font-size: 2.4em;
+  font-weight: 700;
+  padding-top: 1em;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+  #form-container {
+    width: 500px;
+    padding: 0.5em;
+  }
+  
+  .section {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  
+  #section1 label {
+    width: 60%;
+   }
+ 
+  #section2 label, #section3 label, #section4 label {
+    margin-left: 0.5em;
+  }
+  
+  
+  
+}
